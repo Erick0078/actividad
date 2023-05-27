@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <body background="fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg.avif"></body>
   <meta charset="UTF-8">
-  <title>CUAL ES LA CANTIDAD DE PERSONAS QUE ESTAN EN UNA ESCUELA DE DEPORTES SEGUN SU GÉNERO</title>
+  <title>ESTUDIANTES MATRICULADOS EN LA ESCUELA NACIONAL DEL DEPORTE</title>
   <style>
     /* Estilos generales /
     body {
@@ -37,7 +38,7 @@
     / Estilos para el pie de página */
     footer {
       background-color: #333;
-      color: #fff;
+      color: #c7f50f;
       padding: 10px;
       text-align: center;
       font-size: 14px;
@@ -46,22 +47,23 @@
 </head>
 <body>
   <header>
-    <h1>Informe de Looker Studio</h1>
+    <h1>ESTUDIANTES MATRICULADOS EN LA ESCUELA NACIONAL DEL DEPORTE</h1>
   </header>
 
   <div id="looker-report"></div>
 
-  <footer>
-    &copy; 2023 - ERICK MENDOZA
-  </footer>
+  <section>
+    <p>Conclusión</p>
+    <p>CON ESTOS DATOS, PODEMOS LLEGAR A LA CONCLUSIÓN DE QUE LOS RESULTADOS EN GENERAL SON TOTALMENTE DIFERENTES A LOS RESULTADOS CON MATRICULADOS POR GÉNEROC Y CON ELECCIONES UN POCO DISTANTES POR PARTE DE LOS DOS GÉNEROS.</p>
+</section>
 
   <script>
     // Configuración de la incrustación del informe
     var iframe = document.createElement('iframe');
-    iframe.src = 'https://lookerstudio.google.com/embed/reporting/b97b4e39-5347-49d1-9c93-914f25dc4b42/page/B1aRD'; // Reemplaza "URL_DEL_INFORME_LOOKER_STUDIO" con la URL de tu informe de Looker Studio
+    iframe.src = 'https://lookerstudio.google.com/embed/reporting/59007311-d6ea-46e8-ae1b-4eb9f7766d88/page/zQ4RD'; // Reemplaza "URL_DEL_INFORME_LOOKER_STUDIO" con la URL de tu informe de Looker Studio
     iframe.frameBorder = '0';
-    iframe.width = '100%';
-    iframe.height = '100%';
+    iframe.width = '100%'; 
+    iframe.height = '800';
 
     // Inserta el iframe en el contenedor
     var container = document.getElementById('looker-report');
